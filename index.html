@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Google</title>
+</head>
+
+<style>
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-center {
+        width: 500px;
+        height: 120px;        
+        position: absolute;
+        top: 0;
+        bottom: 500px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li a {
+        padding: 9px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .container-items {
+        padding: 5px;
+        border: 1px;
+        margin: 10px;
+        background-color: #D3D3D3;
+    }
+
+    header {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    footer {
+        display: block;
+        position: fixed;
+        background-color: #D3D3D3;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+</style>
+
+<body>
+    <header>
+        <div>
+            <ul>
+                <li style="float: left";><a href="#">About</a></li>
+                <li style="float: left";><a href="#">Store</a></li>
+                <li style="float: right";><a href="#">Gmail</a></li>
+                <li style="float: right";><a href="#">Images</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="content-center">
+        <image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form class="center">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search">
+        </form>
+        <div class="container">
+            <p class="container-items">Google Search</p>
+            <p class="container-items">I'm Feeling Lucky</p>
+        </div>
+        <a class="center" href="https://www.google.com/search?q=coronavirus+prevention" style="text-decoration: none;">Stay home. Save lives. Help stop coronavirus.</a>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li style="float: left";><a href="#">Advertising</a></li>
+                <li style="float: left";><a href="#">Business</a></li>
+                <li style="float: left";><a href="#">How Search Works</a></li>
+                <li style="float: right";><a href="#">Privacy</a></li>
+                <li style="float: right";><a href="#">Terms</a></li>
+                <li style="float: right";><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
