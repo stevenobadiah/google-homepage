@@ -30,12 +30,13 @@
         padding: 0;
     }
 
-    li a {
+    li a, p a {
         padding: 9px;
         margin: 10px;
         padding: 10px;
+        text-decoration: none;
+        color: black;
     }
-
 
     .container {
         display: flex;
@@ -47,6 +48,8 @@
         border: 1px;
         margin: 10px;
         background-color: #D3D3D3;
+        text-decoration: none;
+        color: black;
     }
 
     header {
@@ -88,8 +91,8 @@
             <input type="text" id="search" name="search">
         </form>
         <div class="container">
-            <p class="container-items">Google Search</p>
-            <p class="container-items">I'm Feeling Lucky</p>
+            <p class="container-items"><a href="result-page.html">Google Search</a></p>
+            <p class="container-items"><a href="#">I'm Feeling Lucky</a></p>
         </div>
         <a class="center" href="https://www.google.com/search?q=coronavirus+prevention" style="text-decoration: none;">Stay home. Save lives. Help stop coronavirus.</a>
     </main>

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Search Results</title>
+</head>
+
+<style>
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li a {
+        margin-right: 30px;
+    }
+
+    header {
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 150px 700px auto;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+            "logo search profile"
+            "blank menu blank2";
+        border-bottom: 3px solid whitesmoke ;
+    }
+
+    .header-logo {
+        grid-area: logo;
+        justify-self:center;
+        align-self: center;
+    }
+
+    .logo { 
+        transform: scale(0.4);
+    }
+
+    .header-search {
+        grid-area: search;
+        justify-self:center;
+        align-self: center;
+    }
+
+    .search-bar {
+        display: inline-block;
+        width: 650px;
+        height: 35px;
+        border-radius: 10%;
+        border: 1px solid grey;
+        line-height: 35px;
+    }
+
+    .header-menu {
+        grid-area: menu;
+        align-self: end;
+        margin-bottom: 5px;
+    }
+
+    .header-profile {
+        grid-area: profile;
+        justify-self:right;
+        padding-right: 15px;
+    }
+
+
+    .content {
+        min-height: calc(100vh - 550px);
+        width: 700px;
+        margin-left: 150px;
+        text-align: left;
+        min-height: 100%;
+        margin-bottom: -50px;
+    }
+
+    footer {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        align-items: center;
+        background-color: whitesmoke ;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+            "row1"
+            "row2";
+    }
+
+    .panels {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "Video1 Video2 Video3";
+    }
+
+
+
+</style>
+
+<body style="margin: 0px;">
+        <header>
+            <div class=header-logo>
+                <image class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            <div class="header-search">
+                <div class="search-bar">This ain't a search. First pass, homie.</div>
+            </div>
+            <div class="header-profile">
+                <p>Profile</p>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li style="float: left";><a href="#">All</a></li>
+                    <li style="float: left";><a href="#">News</a></li>
+                    <li style="float: left";><a href="#">Maps</a></li>
+                    <li style="float: left";><a href="#">Videos</a></li>
+                    <li style="float: left";><a href="#">Shopping</a></li>
+                    <li style="float: left";><a href="#">More</a></li>
+                    <li style="float: right";><a href="#">Tools</a></li>
+                    <li style="float: right";><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="content">
+            <p>About 114,000,000 results (0.47 seconds)</p>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1>    
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <h2>Videos</h2>
+                <div class="panels">
+                    <div style="grid-area: Video1;">
+                        <image src="">
+                        <h3></h3>
+                        <p></p>
+                        <p><strong>YouTube</strong> - Jan 3, 2018</p>
+                    </div>
+                    <div style="grid-area: Video2;">
+                        <image src="">
+                        <h3></h3>
+                        <p></p>
+                        <p><strong>YouTube</strong> - Jan 3, 2018</p>
+                    </div>
+                    <div style="grid-area: Video3;">
+                        <image src="">
+                        <h3></h3>
+                        <p></p>
+                        <p><strong>YouTube</strong> - Jan 3, 2018</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>People Also Ask</p>
+                <p>How can I create my own webpage?</p>
+                <p>How much does it cost to make a website?</p>
+                <p>How to make a great website</p>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>victor-lf.github.io › google-search-results</p>
+                <h1>build this webpage - GitHub Pages</h1> 
+                <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+            </section>
+            <section>
+                <p>Related Search</p>
+            </section>
+            <section>
+                <p>Related Search</p>
+            </section>
+            <section>
+                <p>Searches Related To Build This Webpage</p>
+            </section>
+        </main>
+
+        <footer style="bottom: 0;">
+            <div style="grid-area: row1; margin-left: 150px;">
+                <p><strong>Bellmore, New York</strong>-From your places (Home)-Use precise location-Learn more</p>
+            </div>
+            <div style="grid-area: row2; margin-left: 150px;">
+                <ul>
+                    <li style="float: left";><a href="#">Help</a></li>
+                    <li style="float: left";><a href="#">Send Feedback</a></li>
+                    <li style="float: left";><a href="#">Privacy</a></li>
+                    <li style="float: left";><a href="#">Terms</a></li>
+                </ul>
+            </div>
+            <div class="push"></div>
+        </footer>
+</body>
+
+</html>
